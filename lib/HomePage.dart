@@ -17,18 +17,24 @@ class _HomeState extends State<Home> {
       ),
 
       body: new Container(
-        child: new Center(
 
-            child: new CupertinoButton(
-              child: new Text("Click here"),
-              onPressed: (){
-                shoCuportionDialog(context);
-              },
-              color: Colors.redAccent,
 
+            child: Container(
+              margin: EdgeInsets.only(bottom: 10.0),
+              child: Align(
+                alignment: Alignment.bottomCenter,
+                child: new CupertinoButton(
+                  child: new Text("Click here"),
+                  onPressed: (){
+                    shoCuportionDialog(context);
+                  },
+                  color: Colors.redAccent,
+
+                ),
+              ),
             ),
 
-        ),
+
       ),
 
     );
@@ -62,6 +68,19 @@ class _HomeState extends State<Home> {
                   onPressed: (){}, 
                   child: new Text("Second Page")
               ),
+
+              new CupertinoActionSheetAction(
+                  onPressed: (){},
+                  child: new Text("Third Page",
+                  style: TextStyle(fontSize: 22.0,color: Colors.green),
+                  )
+              ),
+              new CupertinoActionSheetAction(
+                  onPressed: (){},
+                  child: new Text("Fourth Page",
+                  style: TextStyle(fontSize: 22.0,color: Colors.purple),
+                  )
+              )
               
 
             ],
