@@ -87,7 +87,6 @@ class _HomeState extends State<Home> {
                     style: TextStyle(fontSize: 22.0,color: Colors.purple),
                   )
               )
-
             ],
           );
 
