@@ -80,8 +80,14 @@ class _HomeState extends State<Home> {
                   child: new Text("Fourth Page",
                   style: TextStyle(fontSize: 22.0,color: Colors.purple),
                   )
+              ),
+              new CupertinoActionSheetAction(
+                  onPressed: (){},
+                  child: new Text("Fith Page",
+                    style: TextStyle(fontSize: 22.0,color: Colors.purple),
+                  )
               )
-              
+
             ],
           );
 
