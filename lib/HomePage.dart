@@ -33,8 +33,7 @@ class _HomeState extends State<Home> {
                 ),
               ),
             ),
-
-
+      
       ),
 
     );
@@ -56,7 +55,6 @@ class _HomeState extends State<Home> {
                 child: new Text("Cancel")
             ),
             actions: <Widget>[
-
               new CupertinoActionSheetAction(
                   onPressed: (){},
                   child: new Text("First Page",
@@ -93,7 +91,7 @@ class _HomeState extends State<Home> {
         }
     );
 
-    
+
   }
   
 }
