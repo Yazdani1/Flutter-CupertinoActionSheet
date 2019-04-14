@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
   }
   
   shoCuportionDialog(BuildContext context){
-    
+
     showCupertinoModalPopup(
         context: context,
         builder: (context){
@@ -57,12 +57,10 @@ class _HomeState extends State<Home> {
                   style: TextStyle(fontSize: 22.0,color: Colors.orange),
                   ),
               ),
-              
               new CupertinoActionSheetAction(
                   onPressed: (){}, 
                   child: new Text("Second Page")
               ),
-
               new CupertinoActionSheetAction(
                   onPressed: (){},
                   child: new Text("Third Page",
@@ -86,7 +84,6 @@ class _HomeState extends State<Home> {
 
         }
     );
-
 
   }
   
