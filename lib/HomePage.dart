@@ -36,7 +36,7 @@ class _HomeState extends State<Home> {
   }
   
   shoCuportionDialog(BuildContext context){
-
+    
     showCupertinoModalPopup(
         context: context,
         builder: (context){
