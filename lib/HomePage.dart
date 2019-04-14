@@ -17,8 +17,6 @@ class _HomeState extends State<Home> {
       ),
 
       body: new Container(
-
-
             child: Container(
               margin: EdgeInsets.only(bottom: 10.0),
               child: Align(
